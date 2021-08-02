@@ -1,25 +1,28 @@
 {
-  "name": "nextkit-demo",
-  "version": "0.1.0",
-  "private": true,
-  "scripts": {
-    "dev": "next dev",
-    "build": "next build",
-    "start": "next start"
-  },
-  "dependencies": {
-    "next": "^11.0.2-canary.24",
-    "react": "17.0.2",
-    "react-dom": "17.0.2"
-  },
-  "devDependencies": {
-    "@types/react": "^17.0.15",
-    "@typescript-eslint/eslint-plugin": "^4.29.0",
-    "@typescript-eslint/parser": "^4.29.0",
-    "eslint": "^7.32.0",
-    "eslint-config-xo": "^0.37.0",
-    "eslint-config-xo-typescript": "^0.43.0",
-    "prettier": "^2.3.2",
-    "typescript": "^4.3.5"
-  }
+	"name": "next-boilerplate",
+	"version": "1.0.0",
+	"private": true,
+	"scripts": {
+		"dev": "next dev",
+		"build": "next build",
+		"start": "next start"
+	},
+	"dependencies": {
+		"next": "^11.0.2-canary.24",
+		"react": "17.0.2",
+		"react-dom": "17.0.2"
+	},
+	"devDependencies": {
+		"@types/react": "^17.0.15",
+		"@typescript-eslint/eslint-plugin": "^4.29.0",
+		"@typescript-eslint/parser": "^4.29.0",
+		"eslint": "^7.32.0",
+		"eslint-config-xo": "^0.37.0",
+		"eslint-config-xo-react": "^0.25.0",
+		"eslint-config-xo-typescript": "^0.43.0",
+		"eslint-plugin-react": "^7.24.0",
+		"eslint-plugin-react-hooks": "^4.2.0",
+		"prettier": "^2.3.2",
+		"typescript": "^4.3.5"
+	}
 }
