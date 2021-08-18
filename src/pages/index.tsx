@@ -1,3 +1,6 @@
+import {useHello} from '../hooks/api/hello';
+
 export default function Home() {
-	return <div>hi</div>;
+	const {data: {time} = {time: Date.now()}} = useHello();
+	return <div>{time}</div>;
 }

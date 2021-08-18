@@ -3,7 +3,7 @@ module.exports = {
 		es2021: true,
 		node: true,
 	},
-	extends: ['xo', 'xo-typescript', 'xo-react'],
+	extends: ['next', 'next/core-web-vitals', 'xo', 'xo-typescript', 'xo-react'],
 	parser: '@typescript-eslint/parser',
 	parserOptions: {
 		ecmaVersion: 12,

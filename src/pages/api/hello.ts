@@ -5,4 +5,3 @@ export default api<{time: number}>({
 		return {time: Date.now()};
 	},
 });
-

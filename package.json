@@ -5,19 +5,22 @@
 	"scripts": {
 		"dev": "next dev",
 		"build": "next build",
-		"start": "next start"
+		"start": "next start",
+		"lint": "eslint ."
 	},
 	"dependencies": {
 		"next": "^11.1.1-canary.10",
-		"nextkit": "^1.0.7",
+		"nextkit": "^1.0.9",
 		"react": "17.0.2",
-		"react-dom": "17.0.2"
+		"react-dom": "17.0.2",
+		"swr": "^0.5.6"
 	},
 	"devDependencies": {
 		"@types/react": "^17.0.18",
 		"@typescript-eslint/eslint-plugin": "^4.29.2",
 		"@typescript-eslint/parser": "^4.29.2",
 		"eslint": "^7.32.0",
+		"eslint-config-next": "11.1.0",
 		"eslint-config-xo": "^0.38.0",
 		"eslint-config-xo-react": "^0.25.0",
 		"eslint-config-xo-typescript": "^0.44.0",
