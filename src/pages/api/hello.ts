@@ -1,6 +1,6 @@
-import {api} from 'nextkit';
+import {api} from '../../server/api';
 
-export default api<{time: number}>({
+export default api({
 	async GET() {
 		return {time: Date.now()};
 	},
