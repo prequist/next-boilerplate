@@ -1,7 +1,7 @@
 import React from 'react';
 import {AppProps} from 'next/app';
 import {SWRConfig} from 'swr';
-import {APIResponse, HttpException} from 'nextkit';
+import {APIResponse, NextkitException} from 'nextkit';
 
 export default function App({Component, pageProps}: AppProps) {
 	return (
@@ -12,7 +12,7 @@ export default function App({Component, pageProps}: AppProps) {
 					const body = (await request.json()) as APIResponse<T>;
 
 					if (!body.success) {
-						throw new HttpException(request.status, body.message);
+						throw new NextkitException(request.status, body.message);
 					}
 
 					return body.data;
