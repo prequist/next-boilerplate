@@ -1,6 +1,6 @@
-import {useHello} from '../client/hooks/api/hello';
+import {useTime} from '../client/hooks/api/time';
 
 export default function Home() {
-	const {data: {time} = {time: Date.now()}} = useHello();
+	const {data: {time} = {time: Date.now()}} = useTime();
 	return <div>{time}</div>;
 }
