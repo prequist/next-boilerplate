@@ -1,5 +1,5 @@
 import useSWR from 'swr';
-import {NextkitException, InferAPIResponse} from 'nextkit';
+import {InferAPIResponse, NextkitException} from 'nextkit';
 
 export type URLGetter<Args extends string[]> = (...args: Args) => `/api/${string}`;
 

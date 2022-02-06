@@ -209,6 +209,13 @@ __metadata:
   languageName: node
   linkType: hard
 
+"@types/node@npm:^17.0.15":
+  version: 17.0.15
+  resolution: "@types/node@npm:17.0.15"
+  checksum: aa64ecf4fbcf9888e794dcdc20e98c49cdcb102b17e57c44ca56943904732d6cc250e766f8448a3cd71d6a40a4b597bd83c565e5bd9b982733fa3f9813d5c291
+  languageName: node
+  linkType: hard
+
 "@types/prop-types@npm:*":
   version: 15.7.4
   resolution: "@types/prop-types@npm:15.7.4"
@@ -1830,6 +1837,7 @@ __metadata:
   version: 0.0.0-use.local
   resolution: "next-boilerplate@workspace:."
   dependencies:
+    "@types/node": ^17.0.15
     "@types/react": ^17.0.39
     "@typescript-eslint/eslint-plugin": ^5.10.2
     "@typescript-eslint/parser": ^5.10.2
