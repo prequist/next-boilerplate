@@ -1,6 +1,6 @@
 # next-boilerplate
 
-It's quick, fast, easy to use. Strict eslint/typescript, prettier setup. Faster build times with canary next.
+It's quick, fast, easy to use. Strict eslint/typescript, prettier setup.
 
 i'll update it every now and then but no guarantee dependencies will work.
 
