@@ -10,7 +10,7 @@
 	},
 	"dependencies": {
 		"alistair": "^1.4.0",
-		"next": "^12.1.2",
+		"next": "^12.1.4",
 		"nextkit": "^3.2.1",
 		"react": "18.0.0",
 		"react-dom": "18.0.0",
@@ -22,11 +22,10 @@
 		"@typescript-eslint/eslint-plugin": "^5.17.0",
 		"@typescript-eslint/parser": "^5.17.0",
 		"eslint": "^8.12.0",
-		"eslint-config-next": "12.1.2",
+		"eslint-config-next": "12.1.4",
 		"eslint-config-xo": "^0.40.0",
 		"eslint-config-xo-react": "^0.27.0",
 		"eslint-config-xo-typescript": "^0.50.0",
-		"eslint-plugin-react-hooks": "^4.4.0",
 		"prettier": "^2.6.1",
 		"typescript": "^4.6.3"
 	},
